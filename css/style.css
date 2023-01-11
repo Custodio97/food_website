@@ -1,0 +1,20 @@
+/*reset*/
+@import "global/reset.css";
+/*Header*/
+@import "global/header.css";
+
+/*Home*/
+@import "home/home.css";
+
+/*About*/
+@import "about/about.css";
+
+/*Services*/
+@import "services/services.css";
+
+/*Contatc*/
+@import "contatc/contatc.css";
+
+/*footer*/
+
+@import "footer/footer.css"

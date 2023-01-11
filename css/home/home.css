@@ -1,0 +1,41 @@
+.home{
+    padding-left: 1rem;
+    padding-top:120px;
+    padding-bottom: 120px;
+    background-image: url("../../img/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home .context{
+    max-width: 600px;
+    width: 90%;
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-align: left;
+    opacity: 0;
+    
+}
+
+.home .context h1{
+    color: #F1D302;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.home .context p{
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.home .context .btn{
+    display: inline-block;
+    padding: .80rem 2rem;
+    background-color: #F1D302;
+    color: #000;
+}

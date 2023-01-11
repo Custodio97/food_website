@@ -1,0 +1,81 @@
+.contact .contact-1{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url("../../img/item.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    color: #F1D302;
+}
+
+.contact .contact-1 h2{
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.contact .grid-col{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact  .grid-col .col{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact .grid-col .col img{
+    width: 100%;
+}
+.contact .grid-col .col .col-1{
+    text-align: center;
+    background-color: #F1D302;
+    color: #000;
+    padding: 1rem;
+    
+}
+
+.contact .grid-col .col .col-1 h2{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.contact .grid-col .col-2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact .grid-col .col-2 .col-1 h2 {
+  font-size: 3.1rem;
+  margin-bottom:2rem;
+}
+
+.contact .grid-col .col-2 .black{
+    padding: 3rem;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact .grid-col .col-2 .blue{
+     width: 100%;
+     padding: 1rem;
+     background-color: #41D3BD;
+     color: #fff;
+}
+.contact .grid-col .col-2 .blue a{
+    display: block;
+    color: #fff;
+    margin: 1.1rem;
+}
+
+
+@media (min-width:920px){
+    .contact .contact-1{
+        background-position: center;
+    }
+    .contact .grid-col .col {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        .contact .grid-col .col-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+}
